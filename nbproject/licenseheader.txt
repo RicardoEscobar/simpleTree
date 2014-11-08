@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Free
+${licensePrefix}@author Jorge Ricardo Escobar Carrasco.${licensePrefix}
+${licensePrefix}AL12509938@unadmexico.mx${licensePrefix}
+<#if licenseLast??>
+${licenseLast}
+</#if>

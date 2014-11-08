@@ -5,7 +5,7 @@
  * patients with their names, gender (male, female), 
  * blood pressure (high, normal, low) and blood type(A, B, AB, O)
  */
-package simpletree;
+
 
 /**
  *
