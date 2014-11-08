@@ -18,7 +18,7 @@ public interface InspectablePositionalContainer extends InspectableContainer {
     // access methods
 
     /**
-     * get container positions *
+     * @return returns a position iterator with container positions *
      */
     public PositionIterator positions();
 }
