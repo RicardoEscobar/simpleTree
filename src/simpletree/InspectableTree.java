@@ -20,28 +20,33 @@ public interface InspectableTree extends InspectablePositionalContainer {
     public Position root();
 
     /**
+     * @param v the position of the node we are asking for if has a father
      * @return return the node's father
      */
-    public Position parent();
+    public Position parent(Position v);
 
     /**
+     * @param v the node's position in question
      * @return return the node's children
      */
-    public PositionIterator children();
+    public PositionIterator children(Position v);
 
     // search methods
     /**
+     * @param v the position of the node
      * @return is the node internal?
      */
-    public boolean isInternal();
+    public boolean isInternal(Position v);
 
     /**
+     * @param v the position of the node
      * @return is the node external?
-     */
-    public boolean isExternal();
+     */    
+    public boolean isExternal(Position v);
 
     /**
+     * @param v is the position of the node whe are asking for if is a root of the tree or not
      * @return is the node the root of the tree?
-     */
-    public boolean isRoot();
+     */    
+    public boolean isRoot(Position v);
 }

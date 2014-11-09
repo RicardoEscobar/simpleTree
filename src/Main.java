@@ -1,3 +1,6 @@
+
+import simpletree.TreeClass;
+
 /**
  * This project is an school assignment, it's purpose is for me to learn.
  * I'm learning how to create and use data structures called 'trees'.
@@ -18,7 +21,9 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hello.");
+        TreeClass arbol;
+        arbol = new TreeClass();
+        System.out.println("Esta vacio? "+ arbol.root());
     }
     
 }
