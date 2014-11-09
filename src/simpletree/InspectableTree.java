@@ -41,12 +41,13 @@ public interface InspectableTree extends InspectablePositionalContainer {
     /**
      * @param v the position of the node
      * @return is the node external?
-     */    
+     */
     public boolean isExternal(Position v);
 
     /**
-     * @param v is the position of the node whe are asking for if is a root of the tree or not
+     * @param v is the position of the node whe are asking for if is a root of
+     * the tree or not
      * @return is the node the root of the tree?
-     */    
+     */
     public boolean isRoot(Position v);
 }
